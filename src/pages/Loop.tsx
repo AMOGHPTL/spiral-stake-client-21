@@ -1,5 +1,5 @@
 const Borrow = () => {
-    return ("Loop");
-}
+  return "Loop";
+};
 
 export default Borrow;
