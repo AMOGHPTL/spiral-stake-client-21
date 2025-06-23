@@ -81,12 +81,28 @@ function App() {
             path="/markets"
             element={<Markets positionManager={positionManager} />}
           />
-          <Route path="/loop" element={<Loop />} />
+          <Route
+            path="/loop"
+            element={
+              <Loop
+                positionManager={positionManager}
+                flashLeverage={flashLeverage}
+              />
+            }
+          />
           <Route
             path="/borrow"
             element={<Borrow positionManager={positionManager} />}
           />
-          <Route path="/my-positions" element={<Portfolio />} />
+          <Route
+            path="/my-positions"
+            element={
+              <Portfolio
+                positionManager={positionManager}
+                flashLeverage={flashLeverage}
+              />
+            }
+          />
           <Route path="*" element={<Navigate to={"/borrow"} />} />
         </Routes>
 
