@@ -38,5 +38,6 @@
     }
   },
   "pyUSD": "0x33df13a4dF1DF64bC489ad87718443435f44Bc6f",
-  "positionManagerAddress": "0xFdf0B51e0faC048E1996d78a680D24C6DD26D7e3"
+  "positionManagerAddress": "0xFdf0B51e0faC048E1996d78a680D24C6DD26D7e3",
+  "flashLeverageAddress": "0x48501e0187756E3256560E0A7978c504D795e242"
 }
